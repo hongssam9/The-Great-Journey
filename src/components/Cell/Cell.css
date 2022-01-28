@@ -1,0 +1,10 @@
+/* Make each individual squares */
+.cell-square {
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-width: 0.5px;
+    background-color: rgba(37, 100, 37, 0.87);
+}

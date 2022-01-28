@@ -1,0 +1,28 @@
+/* Changes size of each tower */
+img {
+    height: 30px;
+    width: 30px;
+}
+
+@media only screen and (min-width: 1900px) {
+.towers {
+    margin: 10px;
+    display: block
+}
+
+.tower-container {
+    background: rgba(141, 204, 212, 0.521);
+    width: 50px;
+}
+}
+
+@media only screen and (max-width: 1900px) {
+    .towers {
+        margin: 10px;
+    }
+    
+    .tower-container {
+        background: rgba(141, 204, 212, 0.521);
+        width: 250px;
+    }
+}

@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html,
+body {
+  /* To prevent any scrolling to extra part of window screen */
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden;
+  overflow-y: hidden; */
+
+}
+
+body {
+  /* background-image: url(../src/images/background2.png); */
+  background: url(./images/background2.png);
+  /* To try to make the whole background show as much as we can */
+  background-position: center fixed;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: relative;
+  left: 30px;
+}
+
+.navbar-boiz {
+  font-size: 10px;
+  position: relative;
+  left: -20px;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+
+}
+
+.navbar-boiz a {
+  color: rgb(105, 189, 177);
+  padding-left: 3px;
+  padding-right: 3px;
+  text-decoration: none;
+  background-color:rgb(63, 54, 54) ;
+}
+
+#tower-boiz {
+  color: black;
+  font-weight: bold;
+}
+footer {
+  position: relative;
+  margin: auto;
+}
+/* .App-link {
+  color: #61dafb;
+} */
+
+@media only screen and (max-width: 1900px) {
+  .tower-choice {
+    position: relative;
+    left: 100px;
+    width: 200px;
+    top: -40px;
+  }
+
+  .enemy {
+    width: 300px;
+    position: relative;
+    left: 1350px;
+    top: -90px;
+  }
+}
+@media only screen and (min-width: 1900px) {
+  .tower-choice {
+    position: relative;
+    left: 50px;
+    top: -450px;
+  }
+
+  .enemy {
+    position: relative;
+    left: 1850px;
+    top: -600px;
+  }
+}

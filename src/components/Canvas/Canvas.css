@@ -1,0 +1,16 @@
+#canvas1{
+    background: url(../../images/HaloBack.jpeg);
+    position: relative;
+    width: 1080px;
+    height: 540px;
+    justify-content: center;
+    margin: 50px;
+}
+
+#title-title {
+    color: rgb(72, 206, 143);
+    font-size: 50px;
+    margin: 10px 0px -30px 0px;
+    
+}
+
