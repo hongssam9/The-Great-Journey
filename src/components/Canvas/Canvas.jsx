@@ -15,6 +15,7 @@ import mc from '../../images/MC/MC-Front.png'
 import johnson from '../../images/Johnson/Johnson-Front.png'
 
 
+
 function Canvas(props) {
   const cellSize = 30;
   const cellGap = 3;
@@ -234,7 +235,7 @@ const mapArr = [
     update(){
       if(this.shooting){
       this.timer++;
-      if(this.timer % 100 === 0){
+      if(this.timer % 50 === 0){
         projectiles.push(new Projectile(this.x+15, this.y+15, this.target))
       }
     }else {
@@ -615,6 +616,8 @@ const mapArr = [
 window.addEventListener('resize',function(){
   canvasPositionRef.current = canvasRef.current.getBoundingClientRect();
 }) 
+
+
 
   return (
     <div>

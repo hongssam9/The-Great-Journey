@@ -3,12 +3,40 @@ import Gameboard from "./components/Gameboard/Gameboard.jsx";
 import Towers from "./components/Towers/Towers.jsx";
 import Enemies from "./components/Enemies/Enemies.jsx";
 import Canvas from "./components/Canvas/Canvas.jsx"
+import HaloTheme from "./images/HaloTheme.mp3"
+import React, {Component} from 'react'
 
 
-function App() {
+class App extends React.Component {
+  state = {
+    audio: new Audio(HaloTheme),
+    isPlaying: false,
+  };
+ 
+
+  playPause = () => {
+
+    // Get state of song
+    let isPlaying = this.state.isPlaying;
+
+    if (isPlaying) {
+      // Pause the song if it is playing
+      this.state.audio.pause();
+    } else {
+
+      // Play the song if it is paused
+      this.state.audio.play();
+    }
+
+    // Change the state of song
+    this.setState({ isPlaying: !isPlaying });
+  };
+
+  render() {
   return (
     <div className="App">
       <main>
+    
         <div className = "gameboard">
           <Canvas />
           {/* <Gameboard /> */}
@@ -20,6 +48,9 @@ function App() {
           {/* <Enemies /> */}
         </div>
       </main>
+      <button onClick={this.playPause}>
+          Play | Pause
+        </button> 
       <footer>
         <div id = "tower-boiz">
           <em>The Tower Boiz</em>
@@ -48,5 +79,5 @@ function App() {
     </div>
   );
 }
-
+}
 export default App;
