@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/The-Great-Journey/static/css/main.ea920990.css",
+    "main.js": "/The-Great-Journey/static/js/main.8299b9c7.js",
+    "static/js/787.774729bc.chunk.js": "/The-Great-Journey/static/js/787.774729bc.chunk.js",
+    "static/media/background2.png": "/The-Great-Journey/static/media/background2.123eecdb8dc911fd7d5e.png",
+    "static/media/HaloBack.jpeg": "/The-Great-Journey/static/media/HaloBack.85ae9adee1c1eac5062d.jpeg",
+    "static/media/Hunter.png": "/The-Great-Journey/static/media/Hunter.3456c699c5d020bdcdb2.png",
+    "static/media/MC-Front.png": "/The-Great-Journey/static/media/MC-Front.71232989e88b7450923e.png",
+    "static/media/Marine-Front.png": "/The-Great-Journey/static/media/Marine-Front.b14139bc561349c48040.png",
+    "static/media/Johnson-Front.png": "/The-Great-Journey/static/media/Johnson-Front.c8bf1c43c3780b2afc19.png",
+    "static/media/Grunt.png": "/The-Great-Journey/static/media/Grunt.cefc9aa25687642e4956.png",
+    "static/media/ODST-Front.png": "/The-Great-Journey/static/media/ODST-Front.fd86ff2cb5458c561129.png",
+    "static/media/Flood.png": "/The-Great-Journey/static/media/Flood.e1e27083c0fcafe96f4a.png",
+    "static/media/Elite.png": "/The-Great-Journey/static/media/Elite.2a0ac8b2f777696591c9.png",
+    "static/media/Elite-Master.png": "/The-Great-Journey/static/media/Elite-Master.684c7aa22f0ca687e874.png",
+    "index.html": "/The-Great-Journey/index.html",
+    "main.ea920990.css.map": "/The-Great-Journey/static/css/main.ea920990.css.map",
+    "main.8299b9c7.js.map": "/The-Great-Journey/static/js/main.8299b9c7.js.map",
+    "787.774729bc.chunk.js.map": "/The-Great-Journey/static/js/787.774729bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea920990.css",
+    "static/js/main.8299b9c7.js"
+  ]
+}
