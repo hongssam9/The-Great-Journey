@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/The-Great-Journey/static/css/main.ea920990.css",
-    "main.js": "/The-Great-Journey/static/js/main.8299b9c7.js",
+    "main.js": "/The-Great-Journey/static/js/main.66434eab.js",
     "static/js/787.774729bc.chunk.js": "/The-Great-Journey/static/js/787.774729bc.chunk.js",
     "static/media/background2.png": "/The-Great-Journey/static/media/background2.123eecdb8dc911fd7d5e.png",
+    "static/media/HaloTheme.mp3": "/The-Great-Journey/static/media/HaloTheme.0c41cc6057e9c2ef1076.mp3",
     "static/media/HaloBack.jpeg": "/The-Great-Journey/static/media/HaloBack.85ae9adee1c1eac5062d.jpeg",
     "static/media/Hunter.png": "/The-Great-Journey/static/media/Hunter.3456c699c5d020bdcdb2.png",
     "static/media/MC-Front.png": "/The-Great-Journey/static/media/MC-Front.71232989e88b7450923e.png",
@@ -16,11 +17,11 @@
     "static/media/Elite-Master.png": "/The-Great-Journey/static/media/Elite-Master.684c7aa22f0ca687e874.png",
     "index.html": "/The-Great-Journey/index.html",
     "main.ea920990.css.map": "/The-Great-Journey/static/css/main.ea920990.css.map",
-    "main.8299b9c7.js.map": "/The-Great-Journey/static/js/main.8299b9c7.js.map",
+    "main.66434eab.js.map": "/The-Great-Journey/static/js/main.66434eab.js.map",
     "787.774729bc.chunk.js.map": "/The-Great-Journey/static/js/787.774729bc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ea920990.css",
-    "static/js/main.8299b9c7.js"
+    "static/js/main.66434eab.js"
   ]
 }
