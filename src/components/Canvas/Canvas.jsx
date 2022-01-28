@@ -31,7 +31,7 @@ function Canvas(props) {
   let frameAtRoundChange = 0;
   let lives = 20;
   let enemiesSpawn = 0;
-  let enemiesThisRound = 5;
+  let enemiesThisRound = 3;
   let round = 1;
   let endY = 0;
   let endX = 0;
@@ -172,7 +172,7 @@ const mapArr = [
     handleEnemies();
     handleGameStatus();
     handleProjectiles();
-    // handleResources();
+  
     frame++;
     if (!gameOver) requestAnimationFrame(animate);
   }
