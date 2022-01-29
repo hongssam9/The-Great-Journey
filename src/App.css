@@ -94,3 +94,69 @@ footer {
     top: -600px;
   }
 }
+
+:root {
+  --white: #fff;
+  --active-color: #00aeb0;
+}
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+input[type="range"] {
+  height: 5px;
+  -webkit-appearance: none;
+  width: 50%;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background: #3b7677;
+  transition: background 0.2s ease;
+  cursor: pointer;
+}
+
+.audio-player {
+  max-width: 350px;
+  border-radius: 20px;
+  box-shadow: 0 28px 28px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  color: var(--white);
+  position: relative;
+  top: -30px;
+}
+
+.track-info {
+  text-align: center;
+  z-index: 1;
+  position: relative;
+}
+.title {
+  font-weight: 700;
+  margin-bottom: 4px;
+  font-size: 1em;
+}
+
+.audio-controls {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin: 0 auto 15px;
+}
+
+.audio-controls .prev svg,
+.audio-controls .next svg {
+  width: 20px;
+  height: 20px;
+}
+
+.audio-controls .play svg,
+.audio-controls .pause svg {
+  height: 20px;
+  width: 20px;
+}
+
+.audio-controls path {
+  fill: var(--white);
+}
