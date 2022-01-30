@@ -109,7 +109,7 @@ const mapArr = [
     }
 
     draw() {
-      // console.log(mouse)
+      console.log(mouse)
       if (collision(this, mouse) && this.path=== "O") {
         ctxRef.current.strokeStyle = "black";
         ctxRef.current.strokeRect(this.x, this.y, this.width, this.height);
