@@ -22,13 +22,6 @@ function App({ tracks }) {
   // Destructure for conciseness
   const { duration } = audioRef.current;
 
-  const currentPercentage = duration
-    ? `${(trackProgress / duration) * 100}%`
-    : "0%";
-  const trackStyling = `
-    -webkit-gradient(linear, 0% 0%, 100% 0%, color-stop(${currentPercentage}, #fff), color-stop(${currentPercentage}, #777))
-  `;
-
   const startTimer = () => {
     // Clear any timers already running
     clearInterval(intervalRef.current);
@@ -108,60 +101,31 @@ function App({ tracks }) {
   }, []);
 
   return (
-    <div className="App">
-      <main>
-        <div className="gameboard">
-          <Canvas />
-        </div>
-      </main>
-      <div className="audio-player">
-        <div className="track-info">
-          <h2 className="title">{title}</h2>
-          <AudioControls
-            isPlaying={isPlaying}
-            onPrevClick={toPrevTrack}
-            onNextClick={toNextTrack}
-            onPlayPauseClick={setIsPlaying}
-          />
-          <input
-            type="range"
-            value={trackProgress}
-            step="1"
-            min="0"
-            max={duration ? duration : `${duration}`}
-            className="progress"
-            onChange={(e) => onScrub(e.target.value)}
-            onMouseUp={onScrubEnd}
-            onKeyUp={onScrubEnd}
-          />
-        </div>
-      </div>
-
-      {/* <footer>
-        <div id = "tower-boiz">
-          <em>The Tower Boiz</em>
+    <div className="App"> 
+         <Canvas /> 
+        <div className="audio-player">
+            <div className="track-info">
+              <h2 className="title">{title}</h2>
+              
+              <AudioControls
+                isPlaying={isPlaying}
+                onPrevClick={toPrevTrack}
+                onNextClick={toNextTrack}
+                onPlayPauseClick={setIsPlaying}
+              />
+              <input
+                type="range"
+                value={trackProgress}
+                step="1"
+                min="0"
+                max={duration ? duration : `${duration}`}
+                className="progress"
+                onChange={(e) => onScrub(e.target.value)}
+                onMouseUp={onScrubEnd}
+                onKeyUp={onScrubEnd}
+              />
+            </div>
           </div>
-        <ul className="navbar-boiz">
-          <li>
-            <a href="#">Chance</a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/kinglogan3/" target="_blank">
-              King
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/abdullah-ga/" target="_blank">
-              Abdullah
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/hongssam9/" target="_blank">
-              Samuel
-            </a>
-          </li>
-        </ul>
-      </footer> */}
     </div>
   );
 }
