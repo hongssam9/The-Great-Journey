@@ -1,10 +1,18 @@
 {
   "files": {
-    "main.css": "/The-Great-Journey/static/css/main.ea920990.css",
-    "main.js": "/The-Great-Journey/static/js/main.66434eab.js",
-    "static/js/787.774729bc.chunk.js": "/The-Great-Journey/static/js/787.774729bc.chunk.js",
+    "main.css": "/The-Great-Journey/static/css/main.6d2d6609.css",
+    "main.js": "/The-Great-Journey/static/js/main.45ce26fd.js",
     "static/media/background2.png": "/The-Great-Journey/static/media/background2.123eecdb8dc911fd7d5e.png",
     "static/media/HaloTheme.mp3": "/The-Great-Journey/static/media/HaloTheme.0c41cc6057e9c2ef1076.mp3",
+    "static/media/Mjolnir Mix.mp3": "/The-Great-Journey/static/media/Mjolnir Mix.2d9b65b5eac9d8eb830b.mp3",
+    "static/media/Reverie.mp3": "/The-Great-Journey/static/media/Reverie.6b52c5e4d04e4a84f59a.mp3",
+    "static/media/Zeta Halo.mp3": "/The-Great-Journey/static/media/Zeta Halo.fa5b9e00d5ec857feee6.mp3",
+    "static/media/Tower.mp3": "/The-Great-Journey/static/media/Tower.9c60d262e59eeb482b57.mp3",
+    "static/media/Unyielding.mp3": "/The-Great-Journey/static/media/Unyielding.a523105fe6ae537f1375.mp3",
+    "static/media/Palace Arrival.mp3": "/The-Great-Journey/static/media/Palace Arrival.2fd66dbb16105defde18.mp3",
+    "static/media/Peril.mp3": "/The-Great-Journey/static/media/Peril.6bcbb5df7ab76c3cdb2b.mp3",
+    "static/media/Gbraakon Escape.mp3": "/The-Great-Journey/static/media/Gbraakon Escape.a479da305fca0db9bf86.mp3",
+    "static/media/Sacrifice.mp3": "/The-Great-Journey/static/media/Sacrifice.081ee86af42fd4d7e11d.mp3",
     "static/media/HaloBack.jpeg": "/The-Great-Journey/static/media/HaloBack.85ae9adee1c1eac5062d.jpeg",
     "static/media/Hunter.png": "/The-Great-Journey/static/media/Hunter.3456c699c5d020bdcdb2.png",
     "static/media/MC-Front.png": "/The-Great-Journey/static/media/MC-Front.71232989e88b7450923e.png",
@@ -15,13 +23,16 @@
     "static/media/Flood.png": "/The-Great-Journey/static/media/Flood.e1e27083c0fcafe96f4a.png",
     "static/media/Elite.png": "/The-Great-Journey/static/media/Elite.2a0ac8b2f777696591c9.png",
     "static/media/Elite-Master.png": "/The-Great-Journey/static/media/Elite-Master.684c7aa22f0ca687e874.png",
+    "static/media/pause.svg": "/The-Great-Journey/static/media/pause.6d72bb709ff2f64924bbacda4a237460.svg",
+    "static/media/prev.svg": "/The-Great-Journey/static/media/prev.0b3cf3c27186335c6a4ab74bb6356fd9.svg",
+    "static/media/next.svg": "/The-Great-Journey/static/media/next.7c9d7c79bc1bddbc64b7cda0cad6f96b.svg",
     "index.html": "/The-Great-Journey/index.html",
-    "main.ea920990.css.map": "/The-Great-Journey/static/css/main.ea920990.css.map",
-    "main.66434eab.js.map": "/The-Great-Journey/static/js/main.66434eab.js.map",
-    "787.774729bc.chunk.js.map": "/The-Great-Journey/static/js/787.774729bc.chunk.js.map"
+    "static/media/play.svg": "/The-Great-Journey/static/media/play.ae28f2f8ed43f26bbecc733fd80f370c.svg",
+    "main.6d2d6609.css.map": "/The-Great-Journey/static/css/main.6d2d6609.css.map",
+    "main.45ce26fd.js.map": "/The-Great-Journey/static/js/main.45ce26fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea920990.css",
-    "static/js/main.66434eab.js"
+    "static/css/main.6d2d6609.css",
+    "static/js/main.45ce26fd.js"
   ]
 }
