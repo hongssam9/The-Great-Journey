@@ -109,6 +109,7 @@ const mapArr = [
     }
 
     draw() {
+      // console.log(mouse)
       if (collision(this, mouse) && this.path=== "O") {
         ctxRef.current.strokeStyle = "black";
         ctxRef.current.strokeRect(this.x, this.y, this.width, this.height);
@@ -381,9 +382,9 @@ const mapArr = [
     }
 
     update() {
-      console.log("Direction: " + this.direction);
-      console.log("Y: " + this.x);
-      console.log("Target Y: " + this.targetX);
+      // console.log("Direction: " + this.direction);
+      // console.log("Y: " + this.x);
+      // console.log("Target Y: " + this.targetX);
 
       if(this.direction === "left"){
        
